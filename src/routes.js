@@ -8,12 +8,13 @@ import Manage from './Pages/Manage/Manage'
 
 
 let routes = [
-    {path: '/dashboard-admin', element: <Home /> },
-    {path: '/users', element: <UserList /> },
-    {path: '/newuser', element: <NewUser /> },
-    {path: '/products', element: <Products /> },
-    {path: '/product/:productID', element: <Product /> },
-    {path: '/manage', element: <Manage /> },
+    { path: '/dashboard-admin' , element: <Home /> },
+    { path:  '/', element: <Home /> },
+    { path: '/users', element: <UserList /> },
+    { path: '/newuser', element: <NewUser /> },
+    { path: '/products', element: <Products /> },
+    { path: '/product/:productID', element: <Product /> },
+    { path: '/manage', element: <Manage /> },
 ]
 
 
