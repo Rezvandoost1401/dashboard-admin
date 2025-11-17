@@ -1,0 +1,55 @@
+.Features{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.featuresItem{
+    /* position: sticky; */
+    width: 300px;
+    /* flex: 5; */
+    margin: 0px 15px;
+    padding: 20px;
+    /* background-color:darkturquoise; */
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 20px -10px rgba(0, 0, 0, 0.75);
+}
+
+.featureTitle{
+    font-size: 17px;
+}
+
+.featureDetails{
+    display: flex;
+    align-items: center;
+    margin: 8px 0px;
+}
+
+.featureValue{
+    font-size: 25px;
+    font-weight: 600;
+    margin-right: 140px;
+}
+
+.featureRate{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.rateIcon{
+    font-size: 20px;
+    margin-left: 5px;
+    color: green;
+}
+
+.rateIcon.negative {
+    color: red;
+}
+
+.featureSub{
+    font-size: 13px;
+    color: gray
+}
+

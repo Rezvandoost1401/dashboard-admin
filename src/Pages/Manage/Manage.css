@@ -1,0 +1,13 @@
+.manageContainer {
+    padding: 15px;
+    align-items: column;
+    justify-content: space-between;
+}
+
+.input {
+    margin: 30px 0px 15px ;
+}
+
+.countValue {
+    margin: 30px 0px;
+}
